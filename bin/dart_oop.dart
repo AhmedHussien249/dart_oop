@@ -66,6 +66,8 @@ void main() {
       print("i don't know");
   }
 
+  print('exercise');
+print(goals(2, 3, 6));
 
 }
 
@@ -73,3 +75,12 @@ void main() {
 // enum : bst5dmha lma akon 3ayz a3ml mgmo3a mn el kym m7doda y3ni a2dr a3dhm
 
 enum Gender { male, female, other }
+
+// exercise
+int goals(int laLigaGoals, int copaDelReyGoals, int championsLeagueGoals) {
+  // your code here
+
+  int totalGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
+
+  return totalGoals;
+}
